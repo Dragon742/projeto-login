@@ -10,6 +10,7 @@ Extra large screens, TV 1201px +
 */
 
 @media screen and (min-width: 481px) and (max-width: 768px){
+    /*Configuração para Tablet*/
     body{
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
@@ -17,7 +18,7 @@ Extra large screens, TV 1201px +
     section#login{
         width: 80vw;
         height: 80vh;
-        max-height: 525px;
+        max-height: 280px;
     }
 
     section#login > div#imagem{
@@ -37,6 +38,7 @@ Extra large screens, TV 1201px +
 }
 
 @media screen and (min-width: 768px){
+    /*Configuração para Desktop*/
     body{
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
@@ -44,7 +46,7 @@ Extra large screens, TV 1201px +
     section#login{
         width: 750px;
         height: 90vh;
-        max-height: 525px;
+        max-height: 350px;
     }
 
     section#login > div#imagem{
@@ -64,6 +66,7 @@ Extra large screens, TV 1201px +
     }
     
     div#formulario > p{
-        font-size: 1.2em;
+        font-size: 1em;
+        margin: 20px 0px;
     }
 }
