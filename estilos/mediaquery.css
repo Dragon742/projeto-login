@@ -17,7 +17,7 @@ Extra large screens, TV 1201px +
     section#login{
         width: 80vw;
         height: 80vh;
-        max-height: 500px;
+        max-height: 525px;
     }
 
     section#login > div#imagem{
@@ -44,7 +44,7 @@ Extra large screens, TV 1201px +
     section#login{
         width: 750px;
         height: 90vh;
-        max-height: 500px;
+        max-height: 525px;
     }
 
     section#login > div#imagem{
